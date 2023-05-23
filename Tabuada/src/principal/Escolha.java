@@ -12,7 +12,7 @@ public class Escolha {
 		
 		Scanner entrada = new Scanner(System.in);
 
-		do {
+	do {
 		System.out.println("Escolha uma das opções");
 		System.out.println("1 - Soma");
 		System.out.println("2 - Multiplicação");
@@ -58,7 +58,7 @@ public class Escolha {
 				i = i + 1;
 			}
 		} 
-		}while(opcao != 5);
+	}while(opcao != 5);
 		
 		System.out.println("Saindo...");
 
