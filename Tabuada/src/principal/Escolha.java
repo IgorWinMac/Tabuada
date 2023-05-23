@@ -13,6 +13,7 @@ public class Escolha {
 		Scanner entrada = new Scanner(System.in);
 
 	do {
+		System.out.println();
 		System.out.println("Escolha uma das opções");
 		System.out.println("1 - Soma");
 		System.out.println("2 - Multiplicação");
@@ -23,6 +24,7 @@ public class Escolha {
 		opcao = entrada.nextInt();
 
 		if (opcao == 1) {
+			System.out.println();
 			System.out.println("Somando");
 			System.out.println("Informe um número desejado: ");
 			num = entrada.nextInt();
@@ -31,6 +33,7 @@ public class Escolha {
 			}
 
 		} else if (opcao == 2) {
+			System.out.println();
 			System.out.println("Multiplicando");
 			System.out.println("Informe o número desejado: ");
 			num = entrada.nextInt();
@@ -39,6 +42,7 @@ public class Escolha {
 			}
 
 		} else if (opcao == 3) {
+			System.out.println();
 			System.out.println("Dividindo");
 			System.out.println("Informe o número desejado: ");
 			num = entrada.nextInt();
@@ -49,6 +53,7 @@ public class Escolha {
 			}
 
 		} else if (opcao == 4) {
+			System.out.println();
 			System.out.println("Subtraindo");
 			System.out.println("Informe o número desejado: ");
 			num = entrada.nextInt();
@@ -59,7 +64,7 @@ public class Escolha {
 			}
 		} 
 	}while(opcao != 5);
-		
+		System.out.println();
 		System.out.println("Saindo...");
 
 		entrada.close();
