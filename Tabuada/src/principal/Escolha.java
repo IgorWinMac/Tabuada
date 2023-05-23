@@ -12,6 +12,7 @@ public class Escolha {
 		
 		Scanner entrada = new Scanner(System.in);
 
+		do {
 		System.out.println("Escolha uma das opções");
 		System.out.println("1 - Soma");
 		System.out.println("2 - Multiplicação");
@@ -56,13 +57,10 @@ public class Escolha {
 				System.out.println(num + " - " + i + " = " + (num - i));
 				i = i + 1;
 			}
-		} else if (opcao == 5) {
-			System.out.println("Saindo...");
-
-		} else {
-			System.err.println("Dígito Inválido!");
-
-		}
+		} 
+		}while(opcao != 5);
+		
+		System.out.println("Saindo...");
 
 		entrada.close();
 
