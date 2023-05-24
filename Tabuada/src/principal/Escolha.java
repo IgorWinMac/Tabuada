@@ -50,7 +50,7 @@ public class Escolha {
 			int i = 1;
 			while (i <= 10) {
 				aux = num * i;
-				System.out.println(aux + " / " + i + " = " + aux / i);
+				System.out.println(aux + " / " + num + " = " + aux / num);
 				i = i + 1;
 			}
 
