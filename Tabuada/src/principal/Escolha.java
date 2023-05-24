@@ -9,6 +9,7 @@ public class Escolha {
 
 		int opcao;
 		int num;
+		int aux = 1;
 		
 		Scanner entrada = new Scanner(System.in);
 
@@ -48,7 +49,8 @@ public class Escolha {
 			num = entrada.nextInt();
 			int i = 1;
 			while (i <= 10) {
-				System.out.println(num + " / " + i + " = " + num / i);
+				aux = num * i;
+				System.out.println(aux + " / " + i + " = " + aux / i);
 				i = i + 1;
 			}
 
